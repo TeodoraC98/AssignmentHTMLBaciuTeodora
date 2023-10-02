@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tickets</title>
+    <script src="https://kit.fontawesome.com/4da6a52bad.js" crossorigin="anonymous"></script>
+    <link href="styleComedyClub.css" rel="stylesheet">
+    </head>
+<body>
+     <div class="containerLogo">
+        <div class="wrapperNavigationBar">
+          <p class="itemLogo" id="idItemLogo">Comedy Club</p>
+          <p class="itemLogoShort" id="idItemLogoShort">CC</p>
+          <nav class="itemNav">
+              <ul>
+                <li class="itemNavLi" ><a class="itemNavA" href="Home.html">Home</a></li>
+                <li class="itemNavLi"><a class="itemNavA"  href="Show.html">Show</a></li>
+                <li class="itemNavLi"><a class="itemNavA"  href="Team.html">Team</a></li>
+                <li class="itemNavLi"><a class="itemNavA" href="#">Reservation</a></li>
+              </ul>
+          </nav>
+        </div>
+    </div> 
+     <div class="containerTickets">
+        <div class="wrapperItemShow">
+            <img src="./images/comedyShow.jpg" id="idImgShowCover"> 
+                <h4 class="subtitleShoWCover">
+               <a class="linkShowCover" id="wednesdayFirstShow" href="#">
+               Stand up comedy Wednesay-21:30</a>
+                </h4></div>
+        <div class="wrapperItemShow" >
+             <img src="./images/comedyShow.jpg" id="idImgShowCover"> 
+                      <h4 class="subtitleShoWCover">
+                     <a class="linkShowCover" id="wednesdaySecondShow" href="#">
+                     Stand up comedy  Wednesay-22:30</a>
+                      </h4></div>
+         <div class="wrapperItemShow">
+                        <img src="./images/comedyShow.jpg" id="idImgShowCover"> 
+                     <h4 class="subtitleShoWCover">
+                     <a class="linkShowCover" id="thursdayFirstShow" href="#">
+                  Stand up comedy Thursday-21:30</a>
+                                 </h4></div>
+          <div class="wrapperItemShow" >
+                 <img src="./images/comedyShow.jpg" id="idImgShowCover"> 
+                     <h4 class="subtitleShoWCover">
+                      <a class="linkShowCover" id="thursdaySecondShow" href="#">
+                       Stand up comedy Thursday-22:30</a>
+                      </h4></div>
+            <div class="wrapperItemShow">
+                  <img src="./images/comedyShow.jpg" id="idImgShowCover"> 
+                     <h4 class="subtitleShoWCover">
+                     <a class="linkShowCover" id="fridayFirstShow" href="#">
+                  Stand up comedy Friday-19:30</a>
+                                 </h4></div>
+           <div class="wrapperItemShow">
+            <img id="idImgShowCover" src="./images/ImprovisationShow.jpg"
+             alt="Improvisation show cover">
+             <h4 class="subtitleShoWCover">
+                <a class="linkShowCover" id="fridaySecondShow" href="#">
+                  Improvisation Friday-21:00</a>
+                 </h4> </div>
+        <div class="wrapperItemShow">
+            <img id="idImgShowCover" src="./images/openMike.jpg"
+             alt="Open mic show cover"> 
+             <h4 class="subtitleShoWCover">
+                <a class="linkShowCover" id="fridayThirdShow" href="#">
+                  Open Mic Friday-22:30</a>
+                 </h4></div> 
+         <div class="wrapperItemShow">
+                  <img src="./images/comedyShow.jpg" id="idImgShowCover"> 
+                     <h4 class="subtitleShoWCover">
+                     <a class="linkShowCover" id="saturdayFirstShow" href="#">
+                  Stand up comedy Saturday-19:30</a>
+                                 </h4></div>
+           <div class="wrapperItemShow">
+            <img id="idImgShowCover" src="./images/ImprovisationShow.jpg"
+             alt="Improvisation show cover">
+             <h4 class="subtitleShoWCover">
+                <a class="linkShowCover" id="saturdaySecondShow" href="#">
+                  Improvisation Saturday-21:00</a>
+                 </h4> </div>
+          <div class="wrapperItemShow">
+                  <img src="./images/comedyShow.jpg" id="idImgShowCover"> 
+                     <h4 class="subtitleShoWCover">
+                     <a class="linkShowCover" id="saturdayThirdShow" href="#">
+                  Stand up comedy Saturday2:30</a>
+                                 </h4></div>   
+              <div class="wrapperItemShow">
+                    <img src="./images/comedyShow.jpg" id="idImgShowCover"> 
+                    <h4 class="subtitleShoWCover">
+                    <a class="linkShowCover" id="saturdayFirstShow" href="#">
+                      Stand up comedy Sunday-19:00</a>
+                      </h4></div>     
+              <div class="wrapperItemShow">
+               <img id="idImgShowCover" src="./images/openMike.jpg"
+                  alt="Open mic show cover"> 
+                         <h4 class="subtitleShoWCover">
+                       <a class="linkShowCover" id="fridayThirdShow" href="#">
+                      Open Mic Sunday-20:00</a>
+                             </h4></div>              
+    </div>
+
+    <!-- =====================Reservation------------------ -->
+     <div>
+    <form method="get">
+    <fieldset class="fieldsetReservation"><legend id="logoLegend">
+        <img id="logoLegendImg" src="./logo.png"></legend>
+        <div class="wrapperForum">
+        <div class="wrapperInformation">
+      <div> 
+        <label class="reservationDetail" name="lableFirstN">First Name 
+    <span class="requireInformation">(Required)</span></label> 
+       <input class="reservationInputDetail" 
+       for="lableFirstN" type="text" name="fname" id="fname" >
+       </div>
+       <div>
+    <label class="reservationDetail" 
+    name="lableLastN">Last Name
+    <span class="requireInformation">(Required)</span></label> 
+        <input class="reservationInputDetail"
+         for="lableLastN" type="text" name="lname" id="lname" >
+       </div>
+       <div>
+    <label class="reservationDetail"
+     name="lableEmailA">E-mail
+    <span class="requireInformation">(Required)</span></label> 
+    <input  class="reservationInputDetail"
+     for="lableEmailA" type="email" name="email" id="email">
+     </div>
+     <div>
+    <label class="reservationDetail" name="lableContactN">Phone
+    <span class="requireInformation">(Required)</span></label> 
+   <input  class="reservationInputDetail" 
+   for="lableContactN" type="tel" name="tel" id="tel">
+   </div>
+</div>
+     <label class="reservationDetail">Show
+     <span class="requireInformation">(Required)</span></label> 
+     <input type="radio" id="standUpComedyRadio"  value="StandUpComedy">
+         <label class="radioShow" 
+             for="standUpComedyRadio">Stand Up Comedy</label>
+    <input type="radio" id="improvisationRadio"  value="Improvisation">
+             <label class="radioShow" 
+                 for="improvisationRadio">Improvisation</label>
+    <input type="radio" id="openMikeRadio"  value="openMike">
+         <label class="radioShow" 
+          for="openMikeRadio">Open Mike</label>
+    <label  class="reservationDetail" id="dateReservation">Date
+    <span class="requireInformation">(Required)</span></label>
+        <input type="date" class="reservationDate">
+        <label class="reservationDetail">Show time </label>
+     <select class="reservationInputDetail" id="selectItemList">
+       <optgroup class="list" label="Wednesday">
+           <option>21:00</option>
+           <option>22:00</option>
+       </optgroup>
+       <optgroup class="list" label="Thursday">
+          <option>21:00</option>
+          <option>22:00</option>
+       </optgroup>
+       <optgroup class="list" label="Friday">
+        <option>19:30</option>
+        <option>21:00</option>
+        <option>22:30</option>
+      </optgroup>
+      <optgroup class="list" label="Saturday">
+        <option>19:30</option>
+        <option>21:00</option>
+        <option>22:30</option>
+      </optgroup>
+      <optgroup class="list" label="Sunday">
+        <option>19:00</option>
+        <option>20:00</option>
+    </optgroup>
+   </select>
+    <input class="submitReservation" type="submit"
+     value="RESERVE"></label>
+        </div>
+         </fieldset>
+        </form>
+    </div> 
+    <div class="containerFooter">
+      
+      <div class="wrapperFooterIcon">
+        <h1 class="subtitleFooterFallow">You can follow us on</h1>
+          <a id="idLinkMedia" href="https://www.facebook.com/?stype=lo&deoia=1&jlou=
+          Afffpdka7zGVProChshcHx3VUZEm531ZQxgT59QBscHHtIHMLWoOJ-dN2jtkyq5wNR0ROM4Jb6xpmjuBTKKO1
+          KMbHpL6HVOoN6h3twX6De2Z0w&smuh=25364&lh=Ac88OMXLcwQKQP5rIVw"
+          target="_blank">          
+            <i id="idIconFacebook" class="fa-brands fa-square-facebook"></i>
+          </a>  
+       <a id="idLinkMedia"  href="https://www.instagram.com/accounts/onetap/?next=%2F" target="_blank">
+         <i id="idIconInstagram"  class="fa-brands fa-instagram"></i>
+         </a>
+        <a  id="idLinkMedia" href="https://twitter.com/?lang=en">
+          <i id="idIconTwitter" class="fa-brands fa-twitter"></i>
+          </a>
+      </div>
+     
+      <div class="wrapperCR">
+      <p class="copyrightFooter">
+        © 2023 ComedyClub
+      </p>
+      </div>
+    </div> 
+</body>
+</html>

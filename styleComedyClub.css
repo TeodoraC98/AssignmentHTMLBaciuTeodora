@@ -1,0 +1,848 @@
+body{
+    margin:0px;
+}
+.mainStyle{
+    width: 80%;
+    display: block;
+    margin:50px auto;
+
+}
+.containerLogo{
+    position: relative;
+} 
+.wrapperNavigationBar{
+    width: 100%;
+    display: flex;
+    position: sticky;
+    top:0;
+    height: 70px;
+    color:rgb(132 18 52);
+    background-color: black;
+    z-index: 1;
+    opacity: 90%;
+}
+.itemLogo{
+    width: 20%;
+    margin: auto 0; 
+    padding-left: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium',  Arial, sans-serif;       
+
+}
+.bannerDiv{
+    position: relative;
+    height: 40em;
+    margin: auto;
+    background-image: url(./images/Banner.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    }
+    .titleCC{
+        display: none;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       color:rgb(132 18 52);
+       font-size: larger;
+       font-style: oblique;
+       text-align: center;
+       margin: auto;
+
+    }
+.styleLogoImg{
+        height: 150px;
+        width: 150px;
+        box-shadow: 0px 5px 5px rgb(204,204,204); 
+        border:2px solid white;
+        border-radius:50%;
+        position: absolute;
+        z-index: 0;
+        left: 75%;
+        top:70%;
+    }
+.itemLogoShort{
+    margin: auto;
+    margin-left: 10px;
+    padding-left: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium',  Arial, sans-serif ;   
+    display: none;   
+}
+
+.itemNav{
+  width:auto;
+  text-align: end;
+  padding-right: 20px;
+  margin:auto;
+  margin-right: 0;
+
+}
+.itemNavLi{
+    display: inline-block;
+        padding-right: 10px;
+}
+.itemNavA{
+    text-decoration: none;
+    color:rgb(132 18 52);
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium',  Arial, sans-serif ;   
+    display: none;   
+    font-weight:bold;
+    display: inline-block;
+}
+
+.itemNavA:link{
+    color: rgb(226, 84, 108);
+  }
+  .itemNavA:visited{
+    color:rgb(132 18 52);
+  }
+  
+.itemNavA:hover {
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    color:  rgb(226, 84, 108);
+      }
+.itemNavA:active{
+    color: rgb(77, 35, 35);
+    }
+ 
+.containerEvents{
+    height: auto;
+    margin-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+}
+.subtitle{
+    text-align: center;
+    margin:30px auto;
+    font-family: 'Cabin',Verdana,Helvetica,Sans-Serif;
+    color: rgb(128, 126, 126);
+    font-size: bold;
+}
+#wrapperDay{
+    margin: 10px;
+    display: grid;
+   grid-gap: 5px;  
+    grid-template-columns: auto auto;
+    grid-template-rows:auto auto auto auto;
+
+}
+#idImgListEvent{
+    height: 50px;
+    width: 50px;
+
+}
+#idShowTimeParagraf{
+    margin: 0;
+    font-size: 120%;
+    font-size: bold;
+   
+}
+.summeryStyle{
+    font-size: 120%;
+    
+}
+.itemTitleEvents{
+    font-size: 120%;
+    color: rgb(128, 126, 126);
+    font-family: 'Cabin',Verdana,Helvetica,Sans-Serif;
+    height: auto;
+}
+.itemDetailStyle{
+    font-size: 80%;
+} 
+.itemInformationShow{
+    font-size: small;
+    width: 60%;
+    height: auto;
+    font-family: 'Cabin',Verdana,Helvetica,Sans-Serif;
+}
+.tablePriceHorizontel{
+    margin: 50px auto;
+    width: 50%;
+    border: solid 2px black;
+    border-collapse: collapse;
+}
+.tablePriceVertical{
+    margin: 50px auto;
+    display: none;
+    width: 80%;
+    border: solid 2px black;
+    border-collapse: collapse;
+    
+}
+#idVerticalThBorderBottom{
+    border-bottom: 2px solid black;
+}
+#idVerticalTr{
+    height: auto;
+    border: 2px solid black;
+    border-collapse: collapse;
+
+}
+.verticalTr{
+    border-bottom: 2px dotted black;
+    border-collapse: collapse;
+    text-align: center;
+}
+#verticalTdBorderLeft{
+    border-left: 0px;
+}
+#idVerticalTableLeftBorder{
+    border-left: none;
+}
+#idVerticalTableBottomBorder{
+    border-bottom: none;
+}
+#idVerticalTableBorderLB{
+    border-left: none;
+    border-bottom: none;
+}
+.horizontalTableTh{
+    border: solid 2px black;
+    border-collapse: collapse;
+} 
+.thStyleTime{
+    border-bottom: solid 2px black; 
+}
+tr{
+  height: 30px;
+} 
+
+td{
+    border-left: dotted 2px black;
+    border-bottom: 2px dotted black;
+    border-collapse: collapse;
+    text-align: center;
+    } 
+
+
+.containerDivContact{
+    margin: 30px 30px;
+    display: flex;
+    height: auto;
+    flex-wrap:wrap;
+    column-gap: 20px;
+  
+} 
+.itemContact{
+  height: auto;
+  width: auto; 
+  display: grid;
+  grid-template-columns:40px auto;
+  grid-row: 1px;
+
+}
+#idIconContact{
+    font-size: 150%;
+    margin-top: 5px;
+    color: rgb(56, 55, 55);
+    opacity: 75%;  
+    text-shadow: 1px 1px 1px rgb(92, 89, 90);
+     }
+
+#idParagrafContact{
+    display: inline-block;
+    font-size: 120%;
+    margin: 0px;
+    font-weight: bolder;
+    font-family:'Courier New', Courier, monospace;
+    width: auto;
+    padding-top:5px ;
+    text-align: left;
+}
+#idInformationA{
+    margin: 0px;
+      text-decoration: none;
+    color: rgb(56, 55, 55);
+    display: inline;
+    font-size: medium;
+    font-family:'Courier New', Courier, monospace ;
+}
+.itemLocation{
+    display:inline-block;
+    height: auto;
+    width: auto;
+    margin-left: 2em;
+    margin-top: 2em;
+    text-align: left; 
+
+     
+} 
+
+#idParagrafLocation{
+    margin-top: 13px;
+    display: inline-block; 
+    font-size:120%;
+    font-weight: bolder;
+    font-family:'Courier New', Courier, monospace;
+}
+/*--------------------------------------- shows---------------------------------------*/
+
+.standupImg{
+    height:55em;
+    width: 100%;
+    background-image: url(./images/standupComedy.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover; 
+
+}
+.improvisationImg{
+    background-image: url(./images/improvisation.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 30%vh;  
+    height:55em;
+    width: 100%;
+}
+.openMikeImg{
+    background-image: url(./images/openMike.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 30vh;  
+    height:55em;
+    width: 100%;
+}
+.wrapperDefinitionShow{
+    display: block;
+    width: 30%;
+    height: auto;
+    position: relative;
+    top:200px;
+    left: 10%;
+    padding-top: 50px;
+
+}
+.paragrafDescriptionS{
+    font-size: large;
+    font-weight:bolder;
+    color: white;
+ }
+.wrapperVideo{
+    position: relative;
+    padding-bottom: 50%;
+    height: 0;
+    width: 100%;
+    height: 60%;
+  
+}
+.wrapperVideo iframe {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+.containerVideo{
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 50%;
+  }
+.wrapperDescriptionShow{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: auto;
+  }
+  .subtitlePerformance{
+    margin: 0px;
+    font-family: 'Cabin',Verdana,Helvetica,Sans-Serif;
+    color: rgb(128, 126, 126);
+    font-size: bold;
+   
+}
+.paragrafDescriptionP{
+    font-family: 'Cabin',Verdana,Helvetica,Sans-Serif;
+    font-size: small;
+}
+
+/* -----------------------TEAM----------------- */
+.containerBannerTeam{
+    width: 100%;
+    height: auto;
+    margin: 0; 
+}
+.wrapperTeam{
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    margin-top: 5vh;
+    padding: auto;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;   
+}
+.titleBannerShortDiv{
+    display: none;
+    width: 100%;
+    height: 10vh;    
+}
+.titleBannerShort{
+    margin: 0%;
+    padding-top: 5%;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.rowTeam{
+    width: 100%;
+    height: auto;
+    display:flex;
+    flex-wrap: nowrap;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.firstRowTitle{
+    height: inherit;
+    width:30%;
+    display:inline-block ;
+ }
+.secondRowTitle{
+    height: auto;
+    width:40%;
+    display:inline-block ;
+}
+.thirdRowTitle{
+    height: inherit;
+    width:50%;
+    display:inline-block ;
+  
+}
+.rowImgTeam{
+    width: auto;
+    height: auto;
+    display: inline-block;      
+}
+
+.subtitleBannerTeam{
+    font-size: larger;
+      padding-right: 20px;   
+    font-size: 500%;
+    text-align: right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nameMemberTeam{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100%;
+    color: rgb(161, 161, 161);
+    text-align: center;
+    font-style: oblique;
+
+}
+.imgProfilMemberBanner{
+    box-shadow: 0px 5px 5px rgb(204,204,204); 
+     height: 200px;
+    width:auto;
+    border: 3px solid white;
+    border-radius: 70%;
+}
+.containerMembersProfile{
+    width: 90%;
+margin-left: 50px;
+}
+.profileMemberImgLeft{
+    box-shadow: 0px 5px 5px rgb(204,204,204); 
+    height: 13vh;
+    width: auto;
+float: left;
+margin: 10px 20px 20px 20px;
+}
+.profileMemberImgRight{
+    box-shadow: 0px 5px 5px rgb(204,204,204); 
+    height: 13vh;
+    width: auto;
+    float:right;
+    margin: 10px 20px 20px 20px;
+}
+.paragrafMember{
+   margin-left: 20px;
+}
+.memberNameTitle{
+    display: inline-block;
+       padding-left: 20px;
+    font-style: oblique;
+    color: rgb(161, 161, 161);
+    font-size: 120%;
+}
+.descriptionMember{
+    font-size: medium;
+    font-family: 'Cabin',Verdana,Helvetica,Sans-Serif;
+}
+/* ----------------------------tickets-------------------- */
+.containerTickets{
+    margin: 10px;   
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 10px;
+    justify-content:space-around;
+
+}
+.wrapperItemShow{
+    position: relative;
+    display: inline-block;
+    height: auto;
+    width: 300px;
+    
+    
+}
+ #idImgShowCover{
+    
+    height:250px;
+    width: 300px; 
+    opacity: 90%;
+
+} 
+.subtitleShoWCover{
+    position:absolute; 
+     left:20px;
+     bottom: 2px;
+}
+ .linkShowCover{
+    color:white;
+ }
+ 
+.linkShowCover:hover{
+    text-decoration: none;
+    font-style: italic;
+    z-index:999;
+        color: black;
+        font-family: 'Cabin',Verdana,Helvetica,Sans-Serif;
+        font-size: small;
+        background-color: white;
+        padding: 3px;
+        display: inline-block;
+        height: auto;
+        width:150px;
+        box-shadow: 1em 0 .2em;
+        border: 2px solid rgb(2, 2, 2);
+        position: absolute;
+        left: 110%;
+    }
+   #wednesdayFirstShow:hover::after{
+        content: " Stand up comedy show with Trevor Noah 21:30 - 22:15.";
+    }
+    #wednesdaySecondShow:hover::after{
+        content: " Stand up comedy show with Lee Mack 21:30 - 22:15.";
+    }
+    #thursdayFirstShow:hover::after{
+        content: " Stand up comedy show with Teo from 21:30 to 22:15.";
+    }
+    #thursdaySecondShow:hover::after{
+        content: " Stand up comedy show with Dylan Moran from 21:30 to 22:15.";
+    }
+    #fridayFirstShow:hover::after{
+        content: " Stand up comedy show with Trevor Noah from 19:30 to 20:45.";
+    }
+    #fridaySecondShow:hover::after{
+        content: " Improvisation show with Ben Schwarts and Thomas Middleditch from 21:00 to 22:15";
+    }
+    #fridayThirdShow:hover::after{
+        content: " Open mic- free entrance.";
+    }
+    #saturdayFirstShow:hover::after{
+        content: " Stand up comedy show with Lee Mack from 19:30 to 20:45.";
+    }
+    #saturdaySecondShow:hover::after{
+        content: " Improvisation show with Ben Schwarts and Thomas Middleditch from 21:00 to 22:15";
+    }
+    #saturdayThirdShow:hover::after{
+        content: " Stand up comedy show with Trevor Noah from 22:30 to 23:00";
+    }
+    #sundayFirstShow:hover::after{
+        content: " Stand up comedy show with Dylan Moran from 19:00 to 19:45.";
+    }
+    #sundaySecondShow:hover::after{
+        content: "Open mic- free entrance";
+    }
+/*------------------reservation-------------------- */
+
+
+ .fieldsetReservation{
+  border: none;
+   height: auto;
+   border-top: 2px solid rgb(204,204,204); 
+   box-shadow: 0px 5px 5px rgb(204,204,204); 
+   width: auto;
+   margin: 10px 50px 10px 50px;
+   padding: auto;
+}
+#logoLegendImg{
+    height: 100px;
+    width: auto;
+}
+#logoLegend{
+    margin-left: 10%;
+}
+.wrapperForum{
+    margin: auto;
+    width:60%;
+
+}
+.wrapperInformation{
+    margin:auto;
+    display: flex;
+    width: auto;
+    flex-wrap:wrap;
+    column-gap:20px;
+    grid-auto-columns: auto;
+    width: auto;
+
+}
+.reservationDetail{ 
+    padding: 10px 1px 0px;
+    display: block;
+    font-family: 'Cabin',Verdana,Helvetica,Sans-Serif;
+    font-size: 15px;
+    color: rgb(128, 126, 126);
+    font-weight: bold;
+    margin: 0;
+    width: 100px;
+}
+.reservationInputDetail{
+    display:block;
+    border:1px solid rgb(209, 204, 204);
+    height: 32px;
+    width:300px;
+}
+.radioShow{
+    font-family: 'Cabin',Verdana,Helvetica,Sans-Serif;
+    font-size: 13px;
+    display:inline-block;
+    color: rgb(128, 126, 126);
+    margin: 10px 4px;
+    font-weight: bold;
+    margin: 5px 0;
+    
+}
+.requireInformation{
+    font-family: 'Cabin',Verdana,Helvetica,Sans-Serif;
+    color: rgb(214, 71, 71);
+    font-size: 12px;
+    font-weight: bold;
+    padding: 1px 0;
+}
+.reservationDate{
+    height: 25px;
+    font-weight: bold;
+    color: rgb(128, 126, 126);
+   font-size: 18px;
+}
+.list{
+    width: auto;
+    margin: 2px 1px;
+}
+.submitReservation{
+    font-family: 'Cabin',Verdana,Helvetica,Sans-Serif;
+    color: rgb(247, 242, 242);
+    background-color: rgb(240, 160, 160);
+    display: block;
+    height: 45px;
+    font-size: 20px;
+    margin-top: 20px;
+    border: 1px solid white;
+
+   margin:30px auto;
+}  
+
+
+.wrapperFooterIcon{
+    width: 80%;
+    height: auto;
+    text-align: center;
+    margin: auto;
+  padding-top: 50px;
+ 
+}
+.subtitleFooterFallow{
+    color:rgb(132 18 52);
+    font-size: 150%;
+    margin: 0px;
+}
+#idIconFacebook, #idIconInstagram, #idIconTwitter{
+    text-shadow: 1px 2px 1px rgb(78, 3, 38);
+font-size: 30px;
+color:rgb(132 18 52);
+margin: 5px;
+}
+.containerFooter{
+    position: relative;
+    bottom: 0%;
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    opacity: 90%;
+}
+#idLinkMedia{
+    text-decoration: none;
+}
+.wrapperCR{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    height: 20px;
+    border-top: 1px solid white;
+    font-size: medium;
+    text-align: center;
+}
+.copyrightFooter{
+ float: bottom;
+    display: inline;
+    width: 100%;
+    opacity: 90%;
+    color: white;
+    font-size: medium;
+    text-align: center;
+    padding-top: 5px;
+}
+
+#idLinkMedia:hover #idIconFacebook{
+color: rgb(59, 62, 230);
+font-size: 40px;
+}
+#idLinkMedia:hover #idIconInstagram{
+    color: rgb(184, 11, 97);
+    font-size: 40px;
+    }
+#idLinkMedia:hover #idIconTwitter{
+        color: rgb(21, 161, 185);
+        font-size: 40px;
+        }
+
+
+
+.containerDecoration{
+    width: 100%;
+    position: relative;
+    height: 100px;
+}
+.wrapperDecoration{
+    margin:  10px;
+    border-top: 2px solid rgb(204,204,204); 
+    box-shadow: 0px 5px 5px rgb(204,204,204); 
+    position: relative;
+    top: 35%;
+}
+.imgDecoration{
+    height: 50px;
+    width: auto;
+    position: absolute;
+    box-shadow: 0px 5px 5px rgb(204,204,204); 
+    border-radius: 50%;
+    left: 20%;
+    top:-25px;
+
+}
+@media(max-width:800px){
+    .reservationInputDetail{
+        margin: 0;
+        display: inline;
+        padding: 0;
+      width: 90%;
+     
+    }
+}
+@media(max-width:500px){
+    .bannerDiv{
+        display: none;
+      
+    }
+    .titleCC{
+        display: inline;
+    }
+    .wrapperNavigationBar{
+       height:auto;
+       margin:auto ;
+    
+    }
+     .itemNav{
+        display:block;
+            } 
+    .itemNavLi{
+        display:block;
+        text-align: end;
+        font-size: medium;
+    }
+   .itemNavA{
+    font-size: 100%;
+    display: block;
+   }
+ .subtitleBannerTeam{
+          display: none;
+                
+    }
+    .tablePriceHorizontel{
+        display: none;
+            }
+    .tablePriceVertical{
+                display: inline-block;
+                width: auto;
+                margin-left:40px;
+            }
+    .imagineProfilMemberBanner{
+        height: 100px;
+    }
+    .wrapperTeam{
+        margin: 10px 0;
+    }
+    .wrapperDefinitionShow{
+       bottom: 10px;
+        width: 80%;
+    }
+    .paragrafDescriptionS{
+       font-size: large;
+       font-weight:bolder;
+    }
+}
+@media(max-width:700px){
+    .titleBannerShortDiv{
+        display: inline;
+    }
+        .subtitleBannerTeam{
+          display: none;
+                
+    }
+    .imagineProfilMemberBanner{
+        height: 100px;
+    }
+    .wrapperTeam{
+        margin: 10px 0;
+        width: 100%;
+    }
+    .thirdRowTitle, .secondRowTitle,.firstRowTitle{
+        width: 0;
+    }
+    .rowTeam{
+        justify-content:center
+    }
+    
+}
+@media(max-width:1000px){
+    #idItemLogo{
+        display: none;
+    }
+    #idItemLogoShort{
+        display: inline-block;
+        }
+        .bannerD{
+        height:29vh;
+    } 
+ 
+    }
+@media(max-width:1400px){
+    .styleLogoImg{
+        display: none;
+    }
+}
